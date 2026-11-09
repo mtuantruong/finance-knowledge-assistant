@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets
+.env
+*credentials*.json
+secrets/
+
+# Real data never goes in a public repo
+data/real/
+data/private/
